@@ -1,0 +1,11 @@
+export const apiUrl = 'http://localhost:8000/api'
+export const aspUrl = 'https://localhost:44351/api'
+export const LOCAL_STORAGE_TOKEN_NAME = 'AUTH_TOKEN';
+export const ACCOUNT_LOAD_SUCCESS = 'ACCOUNT_LOAD_SUCCESS';
+export const ACCOUNT_LOAD_FAIL = 'ACCOUNT_LOAD_FAIL';
+export const GROCERY_LOAD_SUCCESS = 'GROCERY_LOAD_SUCCESS';
+export const GROCERY_LOAD_FAIL = 'GROCERY_LOAD_FAIL';
+export const GROCERYBYID_LOAD_FAIL = 'GROCERYBYID_LOAD_FAIL';
+export const GROCERYBYID_LOAD_SUCCESS = 'GROCERYBYID_LOAD_SUCCESS';
+export const SET_AUTH = 'SET_AUTH';
+export const REMOVE_AUTH = 'REMOVE_AUTH';

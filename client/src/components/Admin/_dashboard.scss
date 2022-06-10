@@ -1,0 +1,35 @@
+.dashboard{
+    .title{
+        color: black !important;
+        transition: all 0.5s;
+        display: inline-block;
+        position: relative;
+        float: right;
+        cursor: pointer;
+        font-size: 20px;
+        color: black;
+    }
+    span{
+        color: cadetblue;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .title:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #0d6efd;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+      
+    .title:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        height: 3px;
+    }
+}

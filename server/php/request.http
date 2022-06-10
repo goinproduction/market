@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8000/api/register
+Content-Type: application/json
+
+{
+    "full_name": "Suu Nguyen",
+    "email": "itdev.126@gmail.com",
+    "password": "admin"
+}
+
+###
+GET http://localhost:8000/api/user
